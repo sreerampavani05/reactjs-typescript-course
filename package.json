@@ -1,0 +1,28 @@
+{
+  "name": "reactjs-typescript-course",
+  "version": "1.0.0",
+  "description": "Simple ReactJS+Typescript project using webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreerampavani05/reactjs-typescript-course.git"
+  },
+  "author": "spavani",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.2",
+    "@types/react-dom": "^15.5.3",
+    "lite-server": "^2.3.0",
+    "ts-loader": "^2.3.3",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5"
+  }
+}
